@@ -11,6 +11,7 @@ require "active_support/json"
 require "active_support/inflector"
 require "active_support/time_with_zone"
 require "active_model"
+require "active_model_patches"
 
 require "origin"
 require "mongo"
