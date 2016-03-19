@@ -169,7 +169,7 @@ module Mongoid
               end
             CODE
 
-          Method::prepend method_name, :clear_cache
+          prepend method_name, :clear_cache
         end
       end
     end
