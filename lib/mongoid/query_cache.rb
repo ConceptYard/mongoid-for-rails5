@@ -169,7 +169,7 @@ module Mongoid
               end
             CODE
 
-          alias_method_chain method_name, :clear_cache
+          Method::prepend method_name, :clear_cache
         end
       end
     end
